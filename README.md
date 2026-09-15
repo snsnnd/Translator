@@ -1,10 +1,8 @@
 # PDF 书籍翻译器（英文 → 中文，保留排版）
 
-基于 [pdf2zh-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)（BabelDOC 内核）+
-智谱 GLM 系列模型（OpenAI 兼容 API）的批量书籍翻译工具。已在真实书籍上验证：
+基于 [pdf2zh-next](https://github.com/PDFMathTranslate/PDFMathTranslate-next)（BabelDOC 内核）的批量书籍翻译工具。已在真实书籍上验证：
 **730 页技术书 1 小时 22 分钟翻完，成本 ¥0（免费模型），排版/公式/图表坐标保留，专业术语准确**。
 
-> **API Key**: 本项目采用 **BYOK（自带 Key）** 模式——不提供/不转售任何 API 服务，
 > key 由使用者自行配置并承担费用与条款，详见 **docs/BYOK.md**。
 > **License**: [AGPL-3.0](LICENSE)（依赖的 pdf2zh-next/BabelDOC/PyMuPDF 均为 AGPL，
 > 二次开发与网络服务需遵守同款开源义务，版权声明见 [NOTICE](NOTICE)）
