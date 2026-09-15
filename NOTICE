@@ -1,0 +1,38 @@
+Translator — PDF 书籍翻译工具（英文 → 中文，保留排版）
+Copyright (C) 2026 snsnnd
+
+本程序包含或依赖以下第三方组件，特此声明：
+
+  pdf2zh-next (PDFMathTranslate-next)
+    https://github.com/PDFMathTranslate/PDFMathTranslate-next
+    License: AGPL-3.0
+
+  BabelDOC
+    https://github.com/funstory-ai/BabelDOC
+    License: AGPL-3.0
+
+  PyMuPDF (pymupdf)
+    https://github.com/pymupdf/PyMuPDF
+    License: AGPL-3.0 / 商业双许可 (Artifex Software)
+
+  pikepdf
+    https://github.com/pikepdf/pikepdf
+    License: MPL-2.0
+
+  opencv-python (headless)
+    License: Apache-2.0
+
+  FastAPI / uvicorn
+    License: MIT / BSD-3-Clause
+
+  Vue 3 / Vite / Tailwind CSS (前端构建时依赖)
+    License: MIT
+
+本程序是自由软件：你可以依据 Free Software Foundation 发布的
+GNU Affero General Public License（版本 3 或更高）重新分发或修改它。
+
+依据 AGPL-3.0 第 13 条，如果你修改本程序并通过网络向用户提供服务，
+你必须向这些用户提供修改后完整源代码的获取途径（含你自己的仓库链接即可）。
+
+本程序按"现状"提供，不含任何担保；使用本程序翻译任何内容前，
+使用者应自行确认对该内容拥有合法权利。详见 README「免责声明」。

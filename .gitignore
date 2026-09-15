@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv
+
+# 配置(含密钥, 严禁提交)
+.env
+
+# 产物与日志(可再生成)
+output/
+logs/
+prompts/book_prompt.txt
+
+# 大文件源书
+books/*.pdf
+
+# Web 前端
+web/node_modules/
+web/dist/
+
+# 发布包
+Translator-portable-*.zip

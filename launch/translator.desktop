@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PDF 翻译器
+Comment=英文书籍 → 中文, 保留排版 (本地服务 + 浏览器界面)
+# TODO: 把下面两行里的 /home/你的用户名/Translator 改成你的实际仓库路径
+Exec=bash -c '"/home/你的用户名/Translator/launch/start.sh"'
+Icon=applications-graphics
+Terminal=true
+Categories=Office;

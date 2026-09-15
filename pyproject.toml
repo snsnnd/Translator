@@ -1,0 +1,11 @@
+[project]
+name = "translator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "opencv-python-headless<5",
+    "pdf2zh-next>=2.9",
+    "pikepdf>=10.13.0.post1",
+]
